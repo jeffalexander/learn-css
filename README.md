@@ -7,7 +7,7 @@ I have heard that CSS is a mileage language. To be proficient, you have to put i
 Specific goals
 --------------
 1. Learn CSS
-	1. Current day with a slight lense of the 'why-the-old-css-hacks-exist'
+	1. Current day with a slight lense of 'why-the-old-css-hacks-exist'
 1. Learn git / github
 1. Learn Markdown
 
