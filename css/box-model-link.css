@@ -1,0 +1,29 @@
+.example {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.example div {
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	top: 20px;
+	position: relative;
+}
+
+.margin {
+	background-color: lightblue;
+}
+
+.border {
+	background-color: lightgreen;	
+}
+
+.padding {
+	background-color: red;	
+}
+
+.contents {
+	background-color: purple;	
+}

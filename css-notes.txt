@@ -1,0 +1,10 @@
+CSS Notes:
+========
+
+Niran
+------
+
+Consider
+
+1. For CSS projects which involve one HTML file.  Name the corresponding CS file the same.  (box-model.html -> box-model.css)
+2. For multi-page projects involving multiple files, create a new directory for the entire project with its own relative CSS files.
