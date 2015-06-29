@@ -1,0 +1,4 @@
+Git Notes:
+1. Installing on the mac was easier than I remember.
+	1. Follow the readme to just move the stubs out of the way. Then you don't have to mod your PATH.
+	

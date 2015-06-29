@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<title>box model</title>
+
+<style>
+
+.example {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.example div {
+	width: 90%;
+	height: 90%;
+	margin: auto;
+	top: 20px;
+	position: relative;
+}
+
+.margin {
+	background-color: lightblue;
+}
+
+.border {
+	background-color: lightgreen;	
+}
+
+.padding {
+	background-color: red;	
+}
+
+.contents {
+	background-color: purple;	
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="example">
+<div class="margin">
+  <div class="border">
+    <div class="padding">
+      <div class="contents">
+        Box Model Example
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
