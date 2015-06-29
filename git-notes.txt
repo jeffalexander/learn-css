@@ -1,4 +1,17 @@
 Git Notes:
+=======
+
+Jeff
+----
+
 1. Installing on the mac was easier than I remember.
-	1. Follow the readme to just move the stubs out of the way. Then you don't have to mod your PATH.
+	* Follow the readme to just move the stubs out of the way. Then you don't have to mod your PATH.
+
+Niran
+-----
+
+1. Consider implementations of git commit procedures and strategies:
 	
+	* Initialize a 'develop' branch for continuous integrations of project parts and features.
+	* Include documentation for commit and branch procedures as reference.
+	* Consider Versioning conventions for tagging milestone commit histories.
