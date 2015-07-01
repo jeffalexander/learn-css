@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<title>selectors</title>
+
+<style>
+
+body {
+	margin: 10px;
+}
+
+nav > a {
+	display: inline-block;
+	border-left: 1px solid black;
+	padding: 0px 5px;
+	width: 15%;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav > a:last-child {
+	border-right: 1px solid black;
+}
+
+nav > a:hover {
+	background-color: lightblue;
+}
+
+h1, p {
+	margin: 2px 0px;
+}
+
+aside {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+footer {
+	margin: 10px 0px;
+}
+
+footer > nav > a[obligatoryDISABLED]:after {
+	/* http://stackoverflow.com/questions/6136855/add-title-attribute-from-css */
+    content: "aka boring stuff";
+    padding: 2px;
+    display: none;
+    position: relative;
+    top: -40px;
+    right: -96px;
+    width: 105px;
+    text-align: center;
+    background-color: #fef4c5;
+    border: 1px solid #d4b943;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+
+footer nav a[obligatoryDISABLED]:hover:after{
+    display: block;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<!-- GOTCHA: having a line break will show some space between these -->
+<a href="#">home</a><a href="#">about</a><a href="#">contact us</a>
+</nav>
+</header>
+
+<section>
+<h1>home</h1>
+<p>
+This is the home page. This is just a page with semantic 
+markup to play around with different selectors.
+</p>
+<p>
+The nav section uses left and right border as dividers.
+</p>
+
+
+<aside>
+The home page is the first page most visitors will see.
+</aside>
+
+</section>
+
+<footer>
+<nav>
+<a href="#">site map</a><a href="#" obligatory>terms</a>
+</nav>
+</footer>
+
+</body>
+</html>

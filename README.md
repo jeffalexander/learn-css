@@ -26,14 +26,29 @@ Learning strategy
 1. Code examples when going through tutorials
 	- stop just reading about it
 1. How to view code samples on many browsers?
-
+1. Put lessons in comments using tags in CAPS
+	- LESSON: something learned
+	- GOTCHA: annoying thing that is un-expected
+	- TODO: more coding to do
+	 
 Resources
 ---------
-1. CSS: The Definitive Guide, 3rd Edition
-	- This book is from 2006. Need something newer too.
-1. CSS Grid Layout
-	- https://github.com/afonsopacifer/learning-css-grid-layout
-	- http://gridbyexample.com/
+1. Books
+	- CSS: The Definitive Guide, 3rd Edition
+		- This book is from 2006. Need something newer too.
+1. Tutorials
+	1. https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started
+1. References
+	1. CSS Grid Layout
+		- [afonsopacifer grid layout](https://github.com/afonsopacifer/learning-css-grid-layout)
+		- [gridbyexample.com](http://gridbyexample.com)
+	1. [HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+	1. [CSS Mozilla Dev](https://developer.mozilla.org/en-US/docs/Web/CSS)
+	1. [caniuse.com](http://caniuse.com/#search=background-position)
+1. Cheat Sheets
+	1. http://www.smashingmagazine.com/wp-content/uploads/images/css3-cheat-sheet/css3-cheat-sheet.pdf
+	1. http://www.cheatography.com/davechild/cheat-sheets/css2/pdf/
+	
 
 Questions
 ---------
