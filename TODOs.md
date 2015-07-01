@@ -13,7 +13,7 @@ Random
 CSS
 --------------
 1. Selectors
-	1. Check browser support for selector adjacent siblinings "+"
+	1. Check browser support for selector adjacent siblings "+"
 	1. Create selectors.html to practice all types of selectors
 1. Build a table of block vs inline (replaced vs non-replaced) and which attrs apply or behave differently
 	1. ex: margin-top for inline non-replaced is ignored

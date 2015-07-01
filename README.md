@@ -1,27 +1,23 @@
+# Learning CSS
+I have heard that **CSS is a mileage language**. To be proficient, you have to put in the miles so you can really understand it.
 
-
-Learning CSS
-============
-I have heard that CSS is a mileage language. To be proficient, you have to put in the miles so you can really understand it.
-
-Specific goals
---------------
+## Specific goals
 1. Learn CSS
 	1. Current day with a slight lense of 'why-the-old-css-hacks-exist'
 1. Learn git / github
 1. Learn Markdown
 
-Bonus goals
------------
-
+## Bonus goals
 1.	Chrome dev tools 
 	1.	workspace
 	1.	CSS debugging
 	1.	CSS performance tuning
+1. Tools
+	1. Markdown: 
+		1. LightPaper
+		1. Mou (slow to save files)
 
-Learning strategy
------------------
-
+## Learning strategy
 1. Commit often
 1. Code examples when going through tutorials
 	- stop just reading about it
@@ -31,8 +27,7 @@ Learning strategy
 	- GOTCHA: annoying thing that is un-expected
 	- TODO: more coding to do
 	 
-Resources
----------
+## Resources
 1. Books
 	- CSS: The Definitive Guide, 3rd Edition
 		- This book is from 2006. Need something newer too.
@@ -50,14 +45,11 @@ Resources
 	1. http://www.cheatography.com/davechild/cheat-sheets/css2/pdf/
 	
 
-Questions
----------
+## Questions
 1. Git
-	1. What's the difference between commiting locally vs "syncing" in the GitHub mac app?
+	1. What's the difference between committing locally vs "syncing" in the GitHub mac app?
 
-
-TODOs
------
+## TODOs
 1. 	See [TODOs.md](TODOs.md)
 
 
