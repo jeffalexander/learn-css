@@ -43,7 +43,7 @@ Questions
 
 TODOs
 -----
-1. 	Review written notes to find first round of css examples to test
+1. 	See [TODOs.md](TODOs.md)
 
 
 
