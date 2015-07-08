@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<title>line breaks cause fake padding</title>
+
+<style>
+
+nav > a {
+	display: inline-block;
+	border-left: 1px solid black;
+	padding: 0px 5px;
+	width: 15%;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav > a:last-child {
+	border-right: 1px solid black;
+}
+
+nav > a:hover {
+	background-color: lightblue;
+}
+
+.line-break-space-fix {
+	font-size: 0px;
+}
+
+.line-break-space-fix > * {
+	font-size: 16px;
+}
+
+</style>
+</head>
+
+<body>
+
+<p>
+Some browsers treat line breaks as spaces.
+<ul>
+<li>http://stackoverflow.com/questions/6902237/css-unwanted-spacing-between-anchor-tag-elements</li>
+<li>http://stackoverflow.com/questions/1097006/removing-whitespace-between-html-elements-when-using-line-breaks</li>
+<li>http://stackoverflow.com/questions/13063076/line-breaks-between-divs-render-a-space-how-to-eliminate-it-from-html</li>
+</ul>
+</p>
+
+<header>
+<p>broken</p>
+<nav>
+<!-- GOTCHA: having a line break will show some space between these -->
+<a href="#">home</a>
+<a href="#">about</a>
+<a href="#">contact us</a>
+</nav>
+<p>one line</p>
+<nav>
+<!-- GOTCHA-FIX: all on one line -->
+<a href="#">home</a><a href="#">about</a><a href="#">contact us</a>
+</nav>
+<p>comment</p>
+<nav>
+<!-- GOTCHA-FIX: comment the line breaks -->
+<a href="#">home</a><!--
+--><a href="#">about</a><!--
+--><a href="#">contact us</a>
+</nav>
+<p>font size</p>
+<nav class="line-break-space-fix">
+<!-- GOTCHA-FIX: font-size 0, but have to duplicate font-size -->
+<a href="#">home</a>
+<a href="#">about</a>
+<a href="#">contact us</a>
+</nav>
+<p>TODO: use list elements?</p>
+</header>
+
+</body>
+</html>

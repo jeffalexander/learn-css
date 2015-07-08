@@ -13,9 +13,7 @@ I have heard that **CSS is a mileage language**. To be proficient, you have to p
 	1.	CSS debugging
 	1.	CSS performance tuning
 1. Tools
-	1. Markdown: 
-		1. LightPaper
-		1. Mou (slow to save files)
+	1. Markdown: LightPaper
 
 ## Learning strategy
 1. Commit often
